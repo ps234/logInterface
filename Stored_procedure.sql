@@ -1,0 +1,4 @@
+CREATE PROCEDURE `hac_data_to_BN-HAC` ()
+BEGIN
+
+END

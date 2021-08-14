@@ -1,0 +1,20 @@
+CREATE TABLE `model_data` (
+  `entry_id` int(11) NOT NULL AUTO_INCREMENT,
+  `resource_id` varchar(16) NOT NULL,
+  `resource_name` varchar(30) DEFAULT NULL,
+ `HAC_resource_name varchar(30) DEFAULT NULL,
+  `group_id` varchar(20) DEFAULT NULL,
+  `cluster_id` varchar(20) DEFAULT NULL,
+  `node_id` int(11) DEFAULT NULL,
+  `event_date` datetime DEFAULT NULL,
+  `current_state` varchar(16) DEFAULT NULL,
+  `critical_factor` varchar(5) DEFAULT NULL,
+  `failure_repetition` varchar(5) DEFAULT NULL,
+  `redundancy_factor` varchar(5) DEFAULT NULL,
+  `aggeregated_failure_count` varchar(5) DEFAULT NULL,
+  `reinitialization_factor` varchar(30) DEFAULT NULL,
+  `dependency_type` varchar(8) DEFAULT NULL,
+  `dependency_levels_up` varchar(5) DEFAULT NULL,
+  `dependency_levels_down` varchar(5) DEFAULT NULL,
+
+
